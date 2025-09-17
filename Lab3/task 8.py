@@ -14,5 +14,5 @@ plt.ylabel('Marks')
 plt.show()
 
 plt.figure(figsize=(7, 7))
-plt.bar(marks,labels=subjects)
+plt.pie(marks,labels=subjects,autopct='%1.1f%%',startangle=90,colors=['gold', 'red', 'orange'])
 plt.show()
